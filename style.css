@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+    font-family: "Poppins", sans-serif;
+}
+.intro{
+    background-image: url('./images/whoami.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar{
+    position: absolute;
+    top: 0;
+    right: 6rem;
+}
+.nav-bar ul li{
+    display: inline-block;
+    padding: 3.9rem 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.name-owner{
+   position: absolute;
+   top: 30vh;
+   left: 20vw;
+}
+.name{
+    font-weight: 200;
+    font-size: 10rem;
+    color:#222
+}
+
+.title-owner{
+    position: absolute;
+    top: 60vh;
+    left: 80vw;
+    margin-top: 3rem;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #222;
+}
+
+.nav-bar a:hover{
+    background-color: #898989;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+}
+
+#about{
+    background-color: #000000;
+    color: white;
+}
+
+.about-me{
+    float: left;
+    width: 32%;
+    text-align: center;
+    padding-left: 5px;
+    margin-left: 10px;
+    padding-bottom: 4rem;
+}
+
+#clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+#about-heading{
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+    margin-top:1rem;
+    margin-left: 36vw;
+    padding: 2rem;
+    display: inline-block;
+    border-bottom: 5px double white;
+}
+#h3{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+#experience{
+    background-color: white
+}
+#experience h1{
+    font-size: 8rem;
+    font-weight: 300;
+    margin-left: 3rem;
+    padding: 2rem;
+}
+
+#experience h3{
+    margin-left: 5rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#experience span{
+    margin-left: 5rem;
+}
+#experience div{
+    margin-bottom: 2rem;;
+}
+
+#contact{
+    background-color: black;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+#contact h1{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 2rem 0 0 40rem;
+    padding: 2rem 0 0 0;
+    border-bottom: 2px solid white;
+}
+
+
+#contact p{
+    text-align: left;
+   margin-left: 39rem;
+   padding: 1rem;
+}
+
+#contact ul li{
+    display: inline;
+    padding: 20px;
+
+}
+
+#contact ul li:hover{
+  background-color: white;
+  border-radius: 30px;
+}
+#contact ul{
+    margin-left:80vw;
+}
+#contact ul li a{
+    color: white;
+    text-decoration: none;
+}
